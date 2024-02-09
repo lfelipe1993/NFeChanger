@@ -250,7 +250,7 @@ public class Program {
 				Element tElement = (Element) node;
 				
 				System.out.println("vPag: " + tElement.getElementsByTagName("vPag").item(0).getTextContent());
-				changeContextNode(tElement,"vPag","Reservado ao Fisco.");
+				changeContextNode(tElement,"vPag",valorProduto);
 				novosValores.add(new ValoresModificados("vPag",valorProduto));
 			}
 
